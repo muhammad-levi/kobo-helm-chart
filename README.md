@@ -13,16 +13,16 @@ This chart is still being tested and isn't intended for external use at this tim
 
 # Usage
 
-1. `helm repo add kobo https://gitlab.com/api/v4/projects/32216873/packages/helm/stable`
+1. `helm repo add kobo-levi https://muhammad-levi.github.io/kobo-helm-chart`
 1. Carefully review values.yaml. Set image tag version, if desired. Set databases, secret keys, etc.
-1. `helm install your-kobo kobo/kobo -f your-values.yaml`
+1. `helm install your-kobo kobo-levi/kobo -f your-values.yaml`
 
 ## Upgrading
 
 1. `helm repo update`
-1. `helm upgrade your-kobo kobo -f your-values.yaml`
+1. `helm upgrade your-kobo kobo-levi/kobo -f your-values.yaml`
 
-Tip: Consider using helm diff to preview changes first.
+Tip: Consider using `helm diff` to preview changes first.
 
 # Acknowledgements
 
